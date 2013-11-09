@@ -18,8 +18,10 @@ namespace BusyProgram
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Title = "Really Productive Program";
+            Console.WriteLine("Welcome to the Really Productive Program. Please wait...");
             try
             {
+                Thread.Sleep(500);
                 runProgram();
             }
             catch (Exception )
